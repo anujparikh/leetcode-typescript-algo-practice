@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-typescript-algo-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujparikh/leetcode-typescript-algo-practice.git"
+  },
+  "author": "Anuj Parikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujparikh/leetcode-typescript-algo-practice/issues"
+  },
+  "homepage": "https://github.com/anujparikh/leetcode-typescript-algo-practice#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "prettier": "2.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
+}
