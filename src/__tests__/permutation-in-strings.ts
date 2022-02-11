@@ -2,6 +2,7 @@ import permutationInString from "../permutation-in-string";
 
 describe(" Permutation in String", () => {
   it("simple input", () => {
+    expect(permutationInString("abc", "dcbdacbaaa")).toBeTruthy();
     expect(permutationInString("ab", "eidbaooo")).toBeTruthy();
     expect(permutationInString("ab", "eidboaoo")).toBeFalsy();
   });
