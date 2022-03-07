@@ -16,3 +16,16 @@ export default (nums: number[]): number => {
   }
   return maxSum;
 };
+
+export const maximumSubArraySimple = (nums: number[]): number => {
+  let maxSum = Number.MIN_SAFE_INTEGER;
+  let currentSum = 0;
+  for (let i = 0; i < nums.length; i++) {
+    currentSum += nums[i];
+    maxSum = Math.max(currentSum, maxSum);
+    if (currentSum < 0) {
+      currentSum = 0;
+    }
+  }
+  return maxSum;
+};
