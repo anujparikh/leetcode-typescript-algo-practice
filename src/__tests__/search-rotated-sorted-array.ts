@@ -1,10 +1,9 @@
-import searchRotatedSortedArray from "../search-rotated-sorted-array";
+import twoSum from "../two-sum";
 
-describe("Search in Rotated Sorted Array", () => {
+describe("Two Sum", () => {
   it("simple input", () => {
-    expect(searchRotatedSortedArray([4, 5, 6, 7, 0, 1, 2], 0)).toBe(4);
-    expect(searchRotatedSortedArray([6, 7, 0, 1, 2, 3, 4, 5], 3)).toBe(5);
-    expect(searchRotatedSortedArray([6, 7, 0, 1, 2, 4, 5], 3)).toBe(-1);
-    expect(searchRotatedSortedArray([6], 6)).toBe(0);
+    expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
+    expect(twoSum([3, 2, 4], 6)).toEqual([1, 2]);
+    expect(twoSum([3, 3], 6)).toEqual([0, 1]);
   });
 });
