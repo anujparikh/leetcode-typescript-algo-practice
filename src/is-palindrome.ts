@@ -5,14 +5,13 @@
  * @param x
  * @returns
  */
-function isPalindrome(x: number): boolean {
-  if (x < 0) return false;
-  if (x === 0) return true;
-  let reverse = "";
+export default (x: number): boolean => {
   const original = x;
+  if (x <= 0) return false;
+  let reverse = 0;
   while (x > 0) {
-    reverse += x % 10;
+    reverse = reverse * 10 + (x % 10);
     x = ~~(x / 10);
   }
-  return reverse === `${original}`;
-}
+  return original === reverse;
+};
