@@ -1,4 +1,5 @@
-import mergeIntervals, { Interval } from "../merge-intervals";
+import mergeIntervals from "../merge-intervals";
+import { Interval } from "../utils";
 
 describe("Merge Intervals", () => {
   it("Simple input", () => {

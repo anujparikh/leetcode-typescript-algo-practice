@@ -1,15 +1,4 @@
-export class Interval {
-  start: number;
-  end: number;
-  constructor(start: number, end: number) {
-    this.start = start;
-    this.end = end;
-  }
-
-  get_interval() {
-    return "[" + this.start + ", " + this.end + "]";
-  }
-}
+import { Interval } from "./utils";
 
 export default function (intervals: Array<Interval>) {
   const merged: Array<Interval> = [];

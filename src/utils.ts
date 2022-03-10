@@ -29,4 +29,17 @@ class TreeNode {
   }
 }
 
-export { convertArrayToLL, ListNode, TreeNode };
+class Interval {
+  start: number;
+  end: number;
+  constructor(start: number, end: number) {
+    this.start = start;
+    this.end = end;
+  }
+
+  get_interval() {
+    return "[" + this.start + ", " + this.end + "]";
+  }
+}
+
+export { convertArrayToLL, ListNode, TreeNode, Interval };
