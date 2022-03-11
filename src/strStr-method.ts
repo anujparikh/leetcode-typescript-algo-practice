@@ -1,3 +1,6 @@
+/**
+ * Sliding window problem
+ */
 export default (haystack: string, needle: string): number => {
   if (needle.length === 0) return 0;
   if (haystack.length === 0) return -1;
