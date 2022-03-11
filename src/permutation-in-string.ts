@@ -48,8 +48,8 @@ export default (s1: string, s2: string): boolean => {
     return true;
   }
 
-  for (let i = 1, j = i + s1.length - 1; j < s2.length; i++, j++) {
-    subStringMappingArray[s2.charCodeAt(i - 1) - 97]--;
+  for (let i = 0, j = i + s1.length; j < s2.length; i++, j++) {
+    subStringMappingArray[s2.charCodeAt(i) - 97]--;
     subStringMappingArray[s2.charCodeAt(j) - 97]++;
     if (
       JSON.stringify(charMappingArray) === JSON.stringify(subStringMappingArray)

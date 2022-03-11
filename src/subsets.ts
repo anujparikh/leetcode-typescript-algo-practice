@@ -23,5 +23,6 @@ export default (nums: number[]): number[][] => {
       result = [...result, ...tempArray];
     }
   }
+  console.log(result);
   return result;
 };
