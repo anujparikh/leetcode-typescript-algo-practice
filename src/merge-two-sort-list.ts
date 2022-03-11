@@ -15,20 +15,20 @@ export default (
   if (list1 === null && list2 === null) return null;
   if (list1 === null && list2 !== null) return list2;
   if (list1 !== null && list2 === null) return list1;
-  let listR: ListNode | null = new ListNode(-1, null);
-  let listDummy: ListNode | null = new ListNode(-1, null);
-  listR.next = listDummy;
-
+  let dummy = new ListNode();
+  const head = dummy;
   while (list1 !== null && list2 !== null) {
-    if (list1?.val < list2?.val) {
-      listDummy.next = list1;
-      list1 = list1?.next;
+    if (list1.val < list2.val) {
+      dummy.next = list1;
+      list1 = list1.next;
     } else {
-      listDummy.next = list2;
-      list2 = list2?.next;
+      dummy.next = list2;
+      list2 = list2.next;
     }
-    listDummy = listDummy.next;
+    dummy = dummy.next;
   }
-  listDummy.next = list1 ? list1 : list2;
-  return listR.next.next;
+  if (list1 !== null || list2 !== null) {
+    dummy.next = list1 !== null ? list1 : list2;
+  }
+  return head.next;
 };
