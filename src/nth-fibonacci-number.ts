@@ -5,7 +5,7 @@ export default (input: number) => {
   for (let i = 2; i <= input; i++) {
     fibonacciArray[i] = fibonacciArray[i - 1] + fibonacciArray[i - 2];
   }
-  return fibonacciArray[fibonacciArray.length - 1];
+  return fibonacciArray[input];
 };
 
 export const nthFibonacciNumberWithoutExtraSpace = (input: number): number => {
