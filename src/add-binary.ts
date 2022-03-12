@@ -1,3 +1,6 @@
+/**
+ * https://leetcode.com/problems/add-binary/
+ */
 export default (a: string, b: string): string => {
   let output = "";
   let carry = 0;
