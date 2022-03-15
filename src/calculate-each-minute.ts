@@ -9,5 +9,6 @@ export default (input: Array<string>): Array<string> => {
     });
     output.push(...minutes);
   });
+  console.log(output);
   return output;
 };
