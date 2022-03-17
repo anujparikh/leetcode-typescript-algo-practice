@@ -19,3 +19,5 @@ Climbing Stairs: [Solution](./src/climb-stairs.ts) => [Problem Link](https://lee
 Reverse A LinkedList: [Solution](./src/reverse-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list/)
 
 Is Binary Searchh Tree: [Solution](./src/is-binary-search-tree.ts) => [Problem Link](https://leetcode.com/problems/validate-binary-search-tree/)
+
+Number of subsequences with positive product: [Solution](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/) => [Problem Link](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/)
