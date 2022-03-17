@@ -20,6 +20,7 @@ export class PerformanceMatrix {
         ? this.performanceArray[middle]
         : (this.performanceArray[middle - 1] + this.performanceArray[middle]) /
           2;
+    console.log(this.performanceArray);
     return medianPerformance;
   }
 
@@ -28,7 +29,8 @@ export class PerformanceMatrix {
     let high = inputArray.length;
     while (low < high) {
       const midpoint = (low + high) >>> 1;
-      if (this.performanceArray[midpoint] < input) {
+      if (inputArray[midpoint] === input) return midpoint;
+      else if (inputArray[midpoint] < input) {
         low = midpoint + 1;
       } else {
         high = midpoint;
