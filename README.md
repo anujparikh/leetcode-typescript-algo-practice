@@ -23,3 +23,5 @@ Is Binary Searchh Tree: [Solution](./src/is-binary-search-tree.ts) => [Problem L
 Number of subsequences with positive product: [Solution](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/) => [Problem Link](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/)
 
 Best Time to Buy and Sell Stock[Solution](./src/max-profit.ts) => [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+Valid Palindrome[Solution](./src/valid-palindrome.ts) => [Problem Link](https://leetcode.com/problems/valid-palindrome/)
