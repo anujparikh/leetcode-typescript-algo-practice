@@ -21,3 +21,5 @@ Reverse A LinkedList: [Solution](./src/reverse-linkedlist.ts) => [Problem Link](
 Is Binary Searchh Tree: [Solution](./src/is-binary-search-tree.ts) => [Problem Link](https://leetcode.com/problems/validate-binary-search-tree/)
 
 Number of subsequences with positive product: [Solution](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/) => [Problem Link](https://www.geeksforgeeks.org/number-of-subsequences-with-positive-product/)
+
+Best Time to Buy and Sell Stock[Solution](./src/max-profit.ts) => [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
