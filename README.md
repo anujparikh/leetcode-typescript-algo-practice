@@ -31,3 +31,5 @@ Has Cycle: [Solution](./src/has-cycle.ts) => [Problem Link](https://leetcode.com
 Preorder Traversal: [Solution](./src/preorder-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 Postorder Traversal: [Solution](./src/postorder-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
+Min stack: [Solution](./src/min-stack.ts) => [Problem Link](https://leetcode.com/problems/min-stack/)
