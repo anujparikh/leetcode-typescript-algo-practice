@@ -35,3 +35,5 @@ Postorder Traversal: [Solution](./src/postorder-traversal.ts) => [Problem Link](
 Min stack: [Solution](./src/min-stack.ts) => [Problem Link](https://leetcode.com/problems/min-stack/)
 
 Intersection of Two Linked Lists: [Solution](./src/get-intersection-node.ts) => [Problem Link](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+Excel Sheet Column Title: [Solution](./src/excel-column-title.ts) => [Problem Link](https://leetcode.com/problems/excel-sheet-column-title/)
