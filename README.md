@@ -33,3 +33,5 @@ Preorder Traversal: [Solution](./src/preorder-traversal.ts) => [Problem Link](ht
 Postorder Traversal: [Solution](./src/postorder-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 Min stack: [Solution](./src/min-stack.ts) => [Problem Link](https://leetcode.com/problems/min-stack/)
+
+Intersection of Two Linked Lists: [Solution](./src/get-intersection-node.ts) => [Problem Link](https://leetcode.com/problems/intersection-of-two-linked-lists/)
