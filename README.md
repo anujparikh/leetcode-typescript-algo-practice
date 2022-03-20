@@ -29,3 +29,5 @@ Valid Palindrome: [Solution](./src/valid-palindrome.ts) => [Problem Link](https:
 Has Cycle: [Solution](./src/has-cycle.ts) => [Problem Link](https://leetcode.com/problems/linked-list-cycle/)
 
 Preorder Traversal: [Solution](./src/preorder-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+Postorder Traversal: [Solution](./src/postorder-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
