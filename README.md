@@ -37,3 +37,5 @@ Min stack: [Solution](./src/min-stack.ts) => [Problem Link](https://leetcode.com
 Intersection of Two Linked Lists: [Solution](./src/get-intersection-node.ts) => [Problem Link](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 Excel Sheet Column Title: [Solution](./src/excel-column-title.ts) => [Problem Link](https://leetcode.com/problems/excel-sheet-column-title/)
+
+Majority Element: [Solution](./src/majority-element.ts) => [Problem Link](https://leetcode.com/problems/majority-element/)
