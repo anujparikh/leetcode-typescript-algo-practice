@@ -41,3 +41,5 @@ Excel Sheet Column Title: [Solution](./src/excel-column-title.ts) => [Problem Li
 Majority Element: [Solution](./src/majority-element.ts) => [Problem Link](https://leetcode.com/problems/majority-element/)
 
 Excel Sheet Column Number: [Solution](./src/column-title-to-number.ts) => [Problem Link](https://leetcode.com/problems/excel-sheet-column-number/)
+
+Reverse Bits: [Solution](./src/reverse-bits.ts) => [Problem Link](https://leetcode.com/problems/reverse-bits/)
