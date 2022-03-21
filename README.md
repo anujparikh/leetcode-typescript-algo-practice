@@ -43,3 +43,5 @@ Majority Element: [Solution](./src/majority-element.ts) => [Problem Link](https:
 Excel Sheet Column Number: [Solution](./src/column-title-to-number.ts) => [Problem Link](https://leetcode.com/problems/excel-sheet-column-number/)
 
 Reverse Bits: [Solution](./src/reverse-bits.ts) => [Problem Link](https://leetcode.com/problems/reverse-bits/)
+
+Number of 1 Bits: [Solution](./src/hamming-weight.ts) => [Problem Link](https://leetcode.com/problems/number-of-1-bits/)
