@@ -45,3 +45,5 @@ Excel Sheet Column Number: [Solution](./src/column-title-to-number.ts) => [Probl
 Reverse Bits: [Solution](./src/reverse-bits.ts) => [Problem Link](https://leetcode.com/problems/reverse-bits/)
 
 Number of 1 Bits: [Solution](./src/hamming-weight.ts) => [Problem Link](https://leetcode.com/problems/number-of-1-bits/)
+
+Delete Duplicate Records: [Solution](https://leetcode.com/submissions/detail/664636190/) => [Problem Link](https://leetcode.com/problems/delete-duplicate-emails/)
