@@ -49,3 +49,5 @@ Number of 1 Bits: [Solution](./src/hamming-weight.ts) => [Problem Link](https://
 Delete Duplicate Records: [Solution](https://leetcode.com/submissions/detail/664636190/) => [Problem Link](https://leetcode.com/problems/delete-duplicate-emails/)
 
 Happy Number: [Solution](./src/happy-number.ts) => [Problem Link](https://leetcode.com/problems/happy-number/)
+
+Remove Linked List Elements: [Solution](./src/remove-elements-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/remove-linked-list-elements/)
