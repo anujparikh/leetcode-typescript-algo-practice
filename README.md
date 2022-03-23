@@ -54,4 +54,6 @@ Remove Linked List Elements: [Solution](./src/remove-elements-linkedlist.ts) => 
 
 Isomorphic Strings: [Solution](./src/isomorphic-strings.ts) => [Problem Link](https://leetcode.com/problems/isomorphic-strings/)
 
+Contains Duplicate: [Solution](./src/contains-duplicate.ts) => [Problem Link](https://leetcode.com/problems/contains-duplicate/)
+
 Contains Duplicate II: [Solution](./src/contains-nearby-duplicate.ts) => [Problem Link](https://leetcode.com/problems/contains-duplicate-ii/)
