@@ -53,3 +53,5 @@ Happy Number: [Solution](./src/happy-number.ts) => [Problem Link](https://leetco
 Remove Linked List Elements: [Solution](./src/remove-elements-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/remove-linked-list-elements/)
 
 Isomorphic Strings: [Solution](./src/isomorphic-strings.ts) => [Problem Link](https://leetcode.com/problems/isomorphic-strings/)
+
+Contains Duplicate II: [Solution](./src/contains-nearby-duplicate.ts) => [Problem Link](https://leetcode.com/problems/contains-duplicate-ii/)
