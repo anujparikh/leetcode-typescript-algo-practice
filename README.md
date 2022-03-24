@@ -59,3 +59,5 @@ Contains Duplicate: [Solution](./src/contains-duplicate.ts) => [Problem Link](ht
 Contains Duplicate II: [Solution](./src/contains-nearby-duplicate.ts) => [Problem Link](https://leetcode.com/problems/contains-duplicate-ii/)
 
 Implement Stack using Queues: [Solution](./src/implement-stack.ts) => [Problem Link](https://leetcode.com/problems/implement-stack-using-queues/)
+
+Invert Binary Tree: [Solution](./src/invert-binary-tree.ts) => [Problem Link](https://leetcode.com/problems/invert-binary-tree/submissions/)
