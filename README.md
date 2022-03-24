@@ -62,4 +62,6 @@ Implement Stack using Queues: [Solution](./src/implement-stack.ts) => [Problem L
 
 Invert Binary Tree: [Solution](./src/invert-binary-tree.ts) => [Problem Link](https://leetcode.com/problems/invert-binary-tree/submissions/)
 
-Summary Ranges: [Solution](./src/invert-binary-tree.ts) => [Problem Link](https://leetcode.com/problems/summary-ranges/)
+Summary Ranges: [Solution](./src/summary-ranges.ts) => [Problem Link](https://leetcode.com/problems/summary-ranges/)
+
+Is Power of Two: [Solution](./src/is-power-of-two.ts) => [Problem Link](https://leetcode.com/problems/power-of-two/)
