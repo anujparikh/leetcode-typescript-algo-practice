@@ -65,3 +65,5 @@ Invert Binary Tree: [Solution](./src/invert-binary-tree.ts) => [Problem Link](ht
 Summary Ranges: [Solution](./src/summary-ranges.ts) => [Problem Link](https://leetcode.com/problems/summary-ranges/)
 
 Is Power of Two: [Solution](./src/is-power-of-two.ts) => [Problem Link](https://leetcode.com/problems/power-of-two/)
+
+Implement Queue using Stack: [Solution](./src/implement-stack.ts) => [Problem Link](https://leetcode.com/problems/implement-queue-using-stacks/)
