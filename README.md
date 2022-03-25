@@ -72,4 +72,6 @@ Is Palindrome Linkedlist: [Solution](./src/is-palindrome-linkedlist.ts) => [Prob
 
 Lowest Common Ancestor of a Binary Search Tree: [Solution](./src/lca-bst.ts) => [Problem Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
-Delete Node: [Solution](./src/delete-node.ts) => [Problem Link]https://leetcode.com/problems/delete-node-in-a-linked-list/)
+Delete Node: [Solution](./src/delete-node.ts) => [Problem Link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+
+Is Anagram: [Solution](./src/is-anagram.ts) => [Problem Link](https://leetcode.com/problems/valid-anagram/)
