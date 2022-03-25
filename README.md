@@ -67,3 +67,5 @@ Summary Ranges: [Solution](./src/summary-ranges.ts) => [Problem Link](https://le
 Is Power of Two: [Solution](./src/is-power-of-two.ts) => [Problem Link](https://leetcode.com/problems/power-of-two/)
 
 Implement Queue using Stack: [Solution](./src/implement-stack.ts) => [Problem Link](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+Is Palindrome Linkedlist: [Solution](./src/is-palindrome-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
