@@ -1,4 +1,8 @@
 //@ts-nocheck
+
+/**
+ * Another solution using MinHeap: https://www.youtube.com/watch?v=PWgFnSygweI&ab_channel=KevinNaughtonJr.
+ */
 class Meeting {
   constructor(start, end) {
     this.start = start;
