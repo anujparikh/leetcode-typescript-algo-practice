@@ -71,3 +71,5 @@ Implement Queue using Stack: [Solution](./src/implement-stack.ts) => [Problem Li
 Is Palindrome Linkedlist: [Solution](./src/is-palindrome-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
 
 Lowest Common Ancestor of a Binary Search Tree: [Solution](./src/lca-bst.ts) => [Problem Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+Delete Node: [Solution](./src/delete-node.ts) => [Problem Link]https://leetcode.com/problems/delete-node-in-a-linked-list/)
