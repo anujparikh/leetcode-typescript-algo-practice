@@ -77,3 +77,5 @@ Delete Node: [Solution](./src/delete-node.ts) => [Problem Link](https://leetcode
 Is Anagram: [Solution](./src/is-anagram.ts) => [Problem Link](https://leetcode.com/problems/valid-anagram/)
 
 Interval List Intersections: [Solution](./src/intervals-intersection.ts) => [Problem Link](https://leetcode.com/problems/interval-list-intersections/)
+
+Non-overlapping Intervals: [Solution](./src/non-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/non-overlapping-intervals/)
