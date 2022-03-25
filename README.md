@@ -75,3 +75,5 @@ Lowest Common Ancestor of a Binary Search Tree: [Solution](./src/lca-bst.ts) => 
 Delete Node: [Solution](./src/delete-node.ts) => [Problem Link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 Is Anagram: [Solution](./src/is-anagram.ts) => [Problem Link](https://leetcode.com/problems/valid-anagram/)
+
+Interval List Intersections: [Solution](./src/intervals-intersection.ts) => [Problem Link](https://leetcode.com/problems/interval-list-intersections/)
