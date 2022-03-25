@@ -79,3 +79,5 @@ Is Anagram: [Solution](./src/is-anagram.ts) => [Problem Link](https://leetcode.c
 Interval List Intersections: [Solution](./src/intervals-intersection.ts) => [Problem Link](https://leetcode.com/problems/interval-list-intersections/)
 
 Non-overlapping Intervals: [Solution](./src/non-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/non-overlapping-intervals/)
+
+Meeting Room II: [Solution](./src/meeting-room-ii.ts) => [Problem Link](https://www.youtube.com/watch?v=FdzJmTCVyJU&ab_channel=NeetCode)
