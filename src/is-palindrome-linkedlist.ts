@@ -1,3 +1,4 @@
+//@ts-nocheck
 /**
  * https://leetcode.com/problems/palindrome-linked-list/
  * @param head
