@@ -89,3 +89,5 @@ Employee Free Time: [Solution](./src/employee-free-hours.ts) => [Problem Link](h
 Find the missing number: [Solution](./src/find-missing-number.js) => [Problem Link](https://leetcode.com/problems/missing-number/)
 
 Find all missing numbers: [Solution](./src/find-all-missing-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+
+Find the duplicate number: [Solution](./src/find-duplicate-number.js) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
