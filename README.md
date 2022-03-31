@@ -97,3 +97,5 @@ Find all the duplicate numbers: [Solution](./src/find-all-duplicate-numbers.js) 
 Find smallest missing positive number : [Solution](./src/smallest-missing-positive-number.js) => [Problem Link](https://leetcode.com/problems/first-missing-positive/)
 
 Find the First K Missing Positive Numbers : [Solution](./src/first-k-missing-positive-numbers.js) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
+
+Kth Missing Positive Number : [Solution](./src/kth-missing-positive-number.ts) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
