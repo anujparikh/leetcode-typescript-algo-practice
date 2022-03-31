@@ -87,3 +87,5 @@ Maximum CPU load: [Solution](./src/maximum-cpu-load.ts) => [Problem Link](https:
 Employee Free Time: [Solution](./src/employee-free-hours.ts) => [Problem Link](https://aaronice.gitbook.io/lintcode/sweep-line/employee-free-time)
 
 Find the missing number: [Solution](./src/find-missing-number.js) => [Problem Link](https://leetcode.com/problems/missing-number/)
+
+Find all missing numbers: [Solution](./src/find-all-missing-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
