@@ -91,3 +91,5 @@ Find the missing number: [Solution](./src/find-missing-number.js) => [Problem Li
 Find all missing numbers: [Solution](./src/find-all-missing-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 
 Find the duplicate number: [Solution](./src/find-duplicate-number.js) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
+
+Find all the duplicate numbers: [Solution](./src/find-all-duplicate-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
