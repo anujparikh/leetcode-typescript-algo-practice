@@ -93,3 +93,7 @@ Find all missing numbers: [Solution](./src/find-all-missing-numbers.js) => [Prob
 Find the duplicate number: [Solution](./src/find-duplicate-number.js) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
 
 Find all the duplicate numbers: [Solution](./src/find-all-duplicate-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+
+Find smallest missing positive number : [Solution](./src/smallest-missing-positive-number.js) => [Problem Link](https://leetcode.com/problems/first-missing-positive/)
+
+Find the First K Missing Positive Numbers : [Solution](./src/first-k-missing-positive-numbers.js) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
