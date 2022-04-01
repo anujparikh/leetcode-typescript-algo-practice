@@ -85,3 +85,5 @@ Meeting Room II: [Solution](./src/meeting-room-ii.ts) => [Problem Link](https://
 Maximum CPU load: [Solution](./src/maximum-cpu-load.ts) => [Problem Link](https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/)
 
 Employee Free Time: [Solution](./src/employee-free-hours.ts) => [Problem Link](https://aaronice.gitbook.io/lintcode/sweep-line/employee-free-time)
+
+Reverse Linked List (Sub list): [Solution](./src/reverse-sublist-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list-ii/)
