@@ -103,3 +103,5 @@ Kth Missing Positive Number : [Solution](./src/kth-missing-positive-number.ts) =
 Reverse Linked List (Sub list): [Solution](./src/reverse-sublist-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 Reverse Nodes in k-Group (Sub list): [Solution](./src/reverse-k-group-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+Reverse Nodes in k-Group alternate (Sub list): [Solution](./src/reverse-k-alternate-group-ll.js) => [Problem Link](https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/)
