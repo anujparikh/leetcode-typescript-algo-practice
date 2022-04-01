@@ -101,3 +101,5 @@ Find the First K Missing Positive Numbers : [Solution](./src/first-k-missing-pos
 Kth Missing Positive Number : [Solution](./src/kth-missing-positive-number.ts) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
 
 Reverse Linked List (Sub list): [Solution](./src/reverse-sublist-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list-ii/)
+
+Reverse Nodes in k-Group (Sub list): [Solution](./src/reverse-k-group-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-nodes-in-k-group/)
