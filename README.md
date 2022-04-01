@@ -86,4 +86,18 @@ Maximum CPU load: [Solution](./src/maximum-cpu-load.ts) => [Problem Link](https:
 
 Employee Free Time: [Solution](./src/employee-free-hours.ts) => [Problem Link](https://aaronice.gitbook.io/lintcode/sweep-line/employee-free-time)
 
+Find the missing number: [Solution](./src/find-missing-number.js) => [Problem Link](https://leetcode.com/problems/missing-number/)
+
+Find all missing numbers: [Solution](./src/find-all-missing-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+
+Find the duplicate number: [Solution](./src/find-duplicate-number.js) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
+
+Find all the duplicate numbers: [Solution](./src/find-all-duplicate-numbers.js) => [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+
+Find smallest missing positive number : [Solution](./src/smallest-missing-positive-number.js) => [Problem Link](https://leetcode.com/problems/first-missing-positive/)
+
+Find the First K Missing Positive Numbers : [Solution](./src/first-k-missing-positive-numbers.js) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
+
+Kth Missing Positive Number : [Solution](./src/kth-missing-positive-number.ts) => [Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
+
 Reverse Linked List (Sub list): [Solution](./src/reverse-sublist-ll.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list-ii/)
