@@ -115,3 +115,5 @@ Reverse Level Order Traversal for binary tree: [Solution](./src/reverse-level-or
 Binary Tree Zigzag Level Order Traversal: [Solution](./src/zigzag-level-order-traversal.js) => [Problem Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 Average of Levels in Binary Tree: [Solution](./src/average-of-levels.js) => [Problem Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+
+Minimum Depth of Binary Tree: [Solution](./src/min-depth-binary-tree.js) => [Problem Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
