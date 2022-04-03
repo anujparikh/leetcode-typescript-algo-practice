@@ -123,3 +123,5 @@ Level Order Successor of a node in Binary Tree: [Solution](./src/level-order-suc
 Populating Next Right Pointers in Each Node: [Solution](./src/next-right-pointer-binary-tree.js) => [Problem Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 Connect All Level Order Siblings : [Solution](./src/next-right-pointer-binary-tree.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/NE5109Jl02v)
+
+Binary Tree Right Side View : [Solution](./src/right-side-view-binary-tree.js) => [Problem Link](https://leetcode.com/problems/binary-tree-right-side-view/)
