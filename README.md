@@ -121,3 +121,5 @@ Minimum Depth of Binary Tree: [Solution](./src/min-depth-binary-tree.js) => [Pro
 Level Order Successor of a node in Binary Tree: [Solution](./src/level-order-successor.js) => [Problem Link](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)
 
 Populating Next Right Pointers in Each Node: [Solution](./src/next-right-pointer-binary-tree.js) => [Problem Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+
+Connect All Level Order Siblings : [Solution](./src/next-right-pointer-binary-tree.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/NE5109Jl02v)
