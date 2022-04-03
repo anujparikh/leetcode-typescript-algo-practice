@@ -119,3 +119,5 @@ Average of Levels in Binary Tree: [Solution](./src/average-of-levels.js) => [Pro
 Minimum Depth of Binary Tree: [Solution](./src/min-depth-binary-tree.js) => [Problem Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 Level Order Successor of a node in Binary Tree: [Solution](./src/level-order-successor.js) => [Problem Link](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)
+
+Populating Next Right Pointers in Each Node: [Solution](./src/next-right-pointer-binary-tree.js) => [Problem Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
