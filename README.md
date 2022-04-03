@@ -113,3 +113,5 @@ Level Order Traversal Or Breadth First Search for binary tree: [Solution](./src/
 Reverse Level Order Traversal for binary tree: [Solution](./src/reverse-level-order-traversal.js) => [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
 Binary Tree Zigzag Level Order Traversal: [Solution](./src/zigzag-level-order-traversal.js) => [Problem Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+Average of Levels in Binary Tree: [Solution](./src/average-of-levels.js) => [Problem Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
