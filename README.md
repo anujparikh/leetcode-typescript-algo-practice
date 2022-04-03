@@ -107,3 +107,5 @@ Reverse Nodes in k-Group (Sub list): [Solution](./src/reverse-k-group-ll.ts) => 
 Reverse Nodes in k-Group alternate (Sub list): [Solution](./src/reverse-k-alternate-group-ll.js) => [Problem Link](https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/)
 
 Rotate Linked List: [Solution](./src/rotate-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/rotate-list/)
+
+Level Order Traversal Or Breadth First Search for binary tree: [Solution](./src/level-order-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
