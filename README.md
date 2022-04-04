@@ -133,3 +133,5 @@ Sum Root to Leaf Numbers : [Solution](./src/sum-root-to-left-numbers.ts) => [Pro
 Count Paths for a Sum : [Solution](./src/path-sum-iii.ts) => [Problem Link](https://leetcode.com/problems/path-sum-iii/)
 
 Diameter of Binary Tree: [Solution](./src/diameter-binary-tree.js) => [Problem Link](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+Binary Tree Maximum Path Sum: [Solution](./src/max-path-sum-binary-tree.js) => [Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/)
