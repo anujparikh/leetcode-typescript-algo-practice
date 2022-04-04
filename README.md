@@ -129,3 +129,5 @@ Binary Tree Right Side View : [Solution](./src/right-side-view-binary-tree.js) =
 All Paths for a Sum : [Solution](./src/all-path-sum.ts) => [Problem Link](https://leetcode.com/problems/path-sum-ii/)
 
 Sum Root to Leaf Numbers : [Solution](./src/sum-root-to-left-numbers.ts) => [Problem Link](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+
+Count Paths for a Sum : [Solution](./src/path-sum-iii.ts) => [Problem Link](https://leetcode.com/problems/path-sum-iii/)
