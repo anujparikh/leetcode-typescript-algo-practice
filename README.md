@@ -131,3 +131,5 @@ All Paths for a Sum : [Solution](./src/all-path-sum.ts) => [Problem Link](https:
 Sum Root to Leaf Numbers : [Solution](./src/sum-root-to-left-numbers.ts) => [Problem Link](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 Count Paths for a Sum : [Solution](./src/path-sum-iii.ts) => [Problem Link](https://leetcode.com/problems/path-sum-iii/)
+
+Diameter of Binary Tree: [Solution](./src/diameter-binary-tree.js) => [Problem Link](https://leetcode.com/problems/diameter-of-binary-tree/)
