@@ -135,3 +135,5 @@ Count Paths for a Sum : [Solution](./src/path-sum-iii.ts) => [Problem Link](http
 Diameter of Binary Tree: [Solution](./src/diameter-binary-tree.js) => [Problem Link](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 Binary Tree Maximum Path Sum: [Solution](./src/max-path-sum-binary-tree.js) => [Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/)
+
+Find Median from Data Stream: [Solution](./src/max-path-sum-binary-tree.js) => [Problem Link](https://leetcode.com/problems/find-median-from-data-stream/)
