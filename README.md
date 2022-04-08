@@ -137,3 +137,9 @@ Diameter of Binary Tree: [Solution](./src/diameter-binary-tree.js) => [Problem L
 Binary Tree Maximum Path Sum: [Solution](./src/max-path-sum-binary-tree.js) => [Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/)
 
 Find Median from Data Stream: [Solution](./src/median-finder.js) => [Problem Link](https://leetcode.com/problems/find-median-from-data-stream/)
+
+Sliding Window Problem: [Solution](./src/sliding-window-median.js) => [Problem Link](https://leetcode.com/problems/sliding-window-median/)
+
+Captialize profit (IPO): [Solution](./src/maximize-capital.js) => [Problem Link](https://leetcode.com/problems/ipo/)
+
+Find Right (next) interval: [Solution](./src/next-interval.js) => [Problem Link](https://leetcode.com/problems/find-right-interval/)
