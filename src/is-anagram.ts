@@ -4,7 +4,7 @@
  * @param s2
  * @returns
  */
-function isAnagram(s1: string, s2: string): boolean {
+export default (s1: string, s2: string): boolean => {
   if (s1.length !== s2.length) return false;
   const charMap: { [key: string]: number } = {};
   for (let i = 0; i < s1.length; i++) {
@@ -15,4 +15,4 @@ function isAnagram(s1: string, s2: string): boolean {
     if (charMap[s2[i]] === 0) delete charMap[s2[i]];
   }
   return Object.keys(charMap).length === 0;
-}
+};
