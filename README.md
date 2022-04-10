@@ -149,3 +149,5 @@ Subsets: [Solution](./src/distinct-subsets.ts) => [Problem Link](https://leetcod
 Subsets II: [Solution](./src/distinct-subsets-with-duplicates.ts) => [Problem Link](https://leetcode.com/problems/subsets-ii/)
 
 Permutations: [Solution](./src/permutations.ts) => [Problem Link](https://leetcode.com/problems/permutations/)
+
+Letter Case Permutation: [Solution](./src/letter-case-permutation.ts) => [Problem Link](https://leetcode.com/problems/letter-case-permutation/)
