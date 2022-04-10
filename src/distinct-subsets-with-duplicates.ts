@@ -6,27 +6,18 @@
 function subsetsWithDuplicateInput(nums: number[]): number[][] {
   nums.sort((a, b) => a - b);
   let subsets: Array<Array<number>> = [[]];
-  let previous = null;
-  let previousSubSet: Array<Array<number>> = [];
+  let endIndex = 0;
+  let startIndex = 0;
   for (let i = 0; i < nums.length; i++) {
-    let currentSubSet = [];
-    if (previous !== nums[i]) {
-      const size = subsets.length;
-      for (let j = 0; j < size; j++) {
-        const subset = [...subsets[j], nums[i]];
-        subsets = [...subsets, subset];
-        currentSubSet.push(subset);
-      }
-    } else {
-      const size = previousSubSet.length;
-      for (let j = 0; j < size; j++) {
-        const subset = [...previousSubSet[j], nums[i]];
-        subsets = [...subsets, subset];
-        currentSubSet.push(subset);
-      }
+    startIndex = 0;
+    if (i > 0 && nums[i] === nums[i - 1]) {
+      startIndex = endIndex + 1;
     }
-    previous = nums[i];
-    previousSubSet = currentSubSet;
+    endIndex = subsets.length - 1;
+    for (let j = startIndex; j < endIndex + 1; j++) {
+      const subset = [...subsets[j], nums[i]];
+      subsets = [...subsets, subset];
+    }
   }
   return subsets;
 }
