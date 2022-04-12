@@ -153,3 +153,5 @@ Permutations: [Solution](./src/permutations.ts) => [Problem Link](https://leetco
 Letter Case Permutation: [Solution](./src/letter-case-permutation.ts) => [Problem Link](https://leetcode.com/problems/letter-case-permutation/)
 
 Unique Generalized Abbreviations: [Solution](./src/generalized-abbreviation.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/NEOZDEg5PlN)
+
+Evaluate Expression: [Solution](./src/evaluate-expression-all-ways.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/gx7O7nO0R8l)
