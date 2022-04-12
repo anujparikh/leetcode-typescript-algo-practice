@@ -155,3 +155,5 @@ Letter Case Permutation: [Solution](./src/letter-case-permutation.ts) => [Proble
 Unique Generalized Abbreviations: [Solution](./src/generalized-abbreviation.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/NEOZDEg5PlN)
 
 Evaluate Expression: [Solution](./src/evaluate-expression-all-ways.js) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/gx7O7nO0R8l)
+
+Unique Binary Search Trees: [Solution](./src/no-of-structurally-unique-bst.js) => [Problem Link](https://leetcode.com/problems/unique-binary-search-trees/)
