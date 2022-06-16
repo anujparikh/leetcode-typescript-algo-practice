@@ -9,7 +9,7 @@ const find_smallest_range = function(lists) {
     minHeap.push([currentNumber, 0, lists[i]]);
     currentMaxNumber = Math.max(currentMaxNumber, currentNumber);
   }
-  while (minHeap.length === lists.length) {
+  while (minHeap.length > 0) {
     const [num, currentIndex, list] = minHeap.pop();
     if (rangeEnd - rangeStart > currentMaxNumber - num) {
       rangeStart = num;
@@ -18,10 +18,9 @@ const find_smallest_range = function(lists) {
     if (currentIndex + 1 < list.length) {
       minHeap.push([list[currentIndex + 1], currentIndex + 1, list]);
       currentMaxNumber = Math.max(currentMaxNumber, list[currentIndex + 1]);
+    } else {
+      return [rangeStart, rangeEnd];
     }
   }
-  return [rangeStart, rangeEnd];
+  return [-1, -1];
 };
-
-
-console.log(`Smallest range is: ${find_smallest_range([[1, 5, 8], [4, 12], [7, 8, 10]])}`)
