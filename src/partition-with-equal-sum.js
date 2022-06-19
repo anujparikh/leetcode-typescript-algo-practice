@@ -32,3 +32,25 @@ const partitionWithEqualSumDP = (nums) => {
     if (totalSum % 2 !== 0) return false;
     return pairWithSum(nums, totalSum/2, 0);
 }
+
+const partitionWithEqualSumDPBottomUp = (nums) => {
+    const totalSum = nums.reduce((previous, current) => current + previous, 0);
+    if (totalSum % 2 !== 0) return false;
+    const sum = totalSum / 2;
+    const dp = new Array(nums.length).fill(true).map((n) => new Array(sum + 1).fill(true));
+
+    for (let i = 1; i <= sum; i++) {
+        dp[0][i] = nums[0] === i;
+    }
+
+    for (let i = 1; i < nums.length; i++) {
+        for (let j = 1; j <= sum; j++) {
+            if (dp[i - 1][j]) { // case where sum < nums[i]
+                dp[i][j] = dp[i - 1][j];
+            } else if (sum >= nums[i]) {
+                dp[i][j] = dp[i - 1][j - nums[i]];
+            }
+        }
+    }
+    return dp[nums.length - 1][sum];
+}
