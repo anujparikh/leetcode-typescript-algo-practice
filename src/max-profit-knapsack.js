@@ -1,6 +1,11 @@
 let solveKnapsack = function (profits, weights, capacity) {
+  const dp = [];
   let knapsackRecursive = (profits, weights, capacity, currentIndex) => {
     if (capacity <= 0 || currentIndex >= weights.length) return 0;
+    dp[currentIndex] = dp[currentIndex] || [];
+    if (dp[currentIndex] && dp[currentIndex][capacity]) {
+      return dp[currentIndex][capacity];
+    }
     let profitWithItem = 0;
     if (weights[currentIndex] <= capacity) {
       profitWithItem =
@@ -18,6 +23,7 @@ let solveKnapsack = function (profits, weights, capacity) {
       capacity,
       currentIndex + 1
     );
+    dp[currentIndex][capacity] = Math.max(profitWithItem, profitWithoutItem);
     return Math.max(profitWithItem, profitWithoutItem);
   };
   return knapsackRecursive(profits, weights, capacity, 0);
