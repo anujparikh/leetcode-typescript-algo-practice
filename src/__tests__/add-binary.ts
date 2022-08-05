@@ -1,4 +1,4 @@
-import addBinary from "../add-binary";
+import addBinary from "../randoms/add-binary";
 
 describe(" Add Binary", () => {
   it("simple input", () => {
