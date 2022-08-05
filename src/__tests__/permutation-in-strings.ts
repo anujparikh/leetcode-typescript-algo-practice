@@ -1,4 +1,4 @@
-import permutationInString from "../permutation-in-string";
+import permutationInString from "../randoms/permutation-in-string";
 
 describe(" Permutation in String", () => {
   it("simple input", () => {

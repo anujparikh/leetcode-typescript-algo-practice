@@ -1,4 +1,4 @@
-import { PerformanceMatrix } from "../performance-matrix";
+import { PerformanceMatrix } from "../randoms/performance-matrix";
 
 describe("Performance Calculation", () => {
   it("simple input", () => {

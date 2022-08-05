@@ -1,4 +1,4 @@
-import isAnagram from "../is-anagram";
+import isAnagram from "../randoms/is-anagram";
 
 describe("check if the strings are anagram", () => {
   it("simple input", () => {

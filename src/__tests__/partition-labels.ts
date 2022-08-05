@@ -1,4 +1,4 @@
-import partitionLabels from "../partition-labels";
+import partitionLabels from "../randoms/partition-labels";
 
 describe("recommendation search engine", () => {
   it("simple input", () => {

@@ -1,4 +1,4 @@
-import removeKDigits from "../remove-k-digits";
+import removeKDigits from "../randoms/remove-k-digits";
 
 describe("Remove K Digits", () => {
   it("simple input", () => {

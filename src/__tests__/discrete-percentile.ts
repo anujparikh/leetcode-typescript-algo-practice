@@ -1,4 +1,4 @@
-import discretePercentile from "../discrete-percentile";
+import discretePercentile from "../randoms/discrete-percentile";
 
 describe("get number from percentile", () => {
   it("simple input", () => {

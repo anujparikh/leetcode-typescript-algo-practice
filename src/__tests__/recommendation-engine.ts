@@ -1,4 +1,4 @@
-import recommendationEngine from "../recommendation-engine";
+import recommendationEngine from "../randoms/recommendation-engine";
 
 describe("recommendation search engine", () => {
   it("simple input", () => {

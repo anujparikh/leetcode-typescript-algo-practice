@@ -1,4 +1,4 @@
-import searchInsertPosition from "../search-insert-position";
+import searchInsertPosition from "../randoms/search-insert-position";
 
 describe(" Search Insert Position", () => {
   it("simple input", () => {

@@ -1,4 +1,4 @@
-import employeeToDepartment from "../employee-to-department";
+import employeeToDepartment from "../randoms/employee-to-department";
 
 describe("employee to department", () => {
   it("simple input", () => {

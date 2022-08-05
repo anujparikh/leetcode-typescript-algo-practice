@@ -1,5 +1,5 @@
-import insertIntervals from "../insert-intervals";
-import { Interval } from "../utils";
+import insertIntervals from "../randoms/insert-intervals";
+import { Interval } from "../randoms/utils";
 
 describe("Insert Intervals", () => {
   it("Simple input", () => {

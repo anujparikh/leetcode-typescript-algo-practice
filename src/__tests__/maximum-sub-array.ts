@@ -1,4 +1,4 @@
-import maximumSubArray, { maximumSubArraySimple } from "../maximum-sub-array";
+import maximumSubArray, { maximumSubArraySimple } from "../randoms/maximum-sub-array";
 
 describe(" Maximum SubArray", () => {
   it("simple input", () => {

@@ -1,4 +1,4 @@
-import isPalindrome from "../is-palindrome";
+import isPalindrome from "../randoms/is-palindrome";
 
 describe("is palindrome", () => {
   it("simple input", () => {

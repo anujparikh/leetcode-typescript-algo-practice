@@ -1,4 +1,4 @@
-import kthLargestElementArray from "../kth-largest-element-array";
+import kthLargestElementArray from "../randoms/kth-largest-element-array";
 
 describe("kth largest element within the array", () => {
   it("simple input", () => {

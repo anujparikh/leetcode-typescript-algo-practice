@@ -1,4 +1,4 @@
-import removeElement from "../remove-element";
+import removeElement from "../randoms/remove-element";
 
 describe("Remove Duplicates from Sorted Array", () => {
   it("simple input", () => {

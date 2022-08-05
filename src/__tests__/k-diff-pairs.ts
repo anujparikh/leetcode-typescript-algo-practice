@@ -1,4 +1,4 @@
-import kDiffPairs from "../k-diff-pairs";
+import kDiffPairs from "../randoms/k-diff-pairs";
 
 describe(" K-diff Pairs in an Array", () => {
   it("simple input", () => {

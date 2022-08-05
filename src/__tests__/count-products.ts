@@ -1,4 +1,4 @@
-import countProducts from "../count-products";
+import countProducts from "../randoms/count-products";
 
 describe("count product per company", () => {
   it("simple input", () => {

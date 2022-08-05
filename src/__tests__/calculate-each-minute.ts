@@ -1,4 +1,4 @@
-import calculateEachMinute from "../calculate-each-minute";
+import calculateEachMinute from "../randoms/calculate-each-minute";
 
 describe("Calculate each minute between times", () => {
   it("simple input", () => {

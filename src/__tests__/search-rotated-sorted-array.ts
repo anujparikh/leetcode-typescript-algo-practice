@@ -1,4 +1,4 @@
-import twoSum from "../two-sum";
+import twoSum from "../randoms/two-sum";
 
 describe("Two Sum", () => {
   it("simple input", () => {

@@ -1,4 +1,4 @@
-import missingNumber from "../missing-number";
+import missingNumber from "../randoms/missing-number";
 
 describe("Missing Number", () => {
   it("simple input", () => {

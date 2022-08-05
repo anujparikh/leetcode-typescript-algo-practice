@@ -1,4 +1,4 @@
-import topFrequentUsers from "../top-frequent-users";
+import topFrequentUsers from "../randoms/top-frequent-users";
 
 describe("Top 10 frequent user average session timings", () => {
   it("simple input", () => {

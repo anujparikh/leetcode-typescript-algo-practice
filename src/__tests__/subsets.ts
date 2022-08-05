@@ -1,5 +1,5 @@
 // needs to be tested through debugger
-import subsets from "../subsets";
+import subsets from "../randoms/subsets";
 
 describe("Subsets", () => {
   it.skip("simple input", () => {

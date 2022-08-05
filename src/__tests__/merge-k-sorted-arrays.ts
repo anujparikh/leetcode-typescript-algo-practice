@@ -1,4 +1,4 @@
-import mergeKSortedArrays from "../merge-k-sorted-arrays";
+import mergeKSortedArrays from "../randoms/merge-k-sorted-arrays";
 
 describe("merge k sorted arrays", () => {
   it("simple input", () => {

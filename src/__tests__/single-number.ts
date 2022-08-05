@@ -1,4 +1,4 @@
-import singleNumber from "../single-number";
+import singleNumber from "../randoms/single-number";
 
 describe(" Single Number", () => {
   it("simple input", () => {

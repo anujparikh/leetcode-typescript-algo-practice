@@ -1,4 +1,4 @@
-import validParentheses from "../valid-parentheses";
+import validParentheses from "../randoms/valid-parentheses";
 
 describe("Valid Parentheses", () => {
   it("simple input", () => {

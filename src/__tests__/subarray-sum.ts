@@ -1,4 +1,4 @@
-import subarraySum from "../subarray-sum";
+import subarraySum from "../randoms/subarray-sum";
 
 describe(" K-diff Pairs in an Array", () => {
   it("simple input", () => {

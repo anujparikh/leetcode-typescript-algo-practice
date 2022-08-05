@@ -1,4 +1,4 @@
-import maxProfit from "../max-profit";
+import maxProfit from "../randoms/max-profit";
 
 describe("calculate max profit for share", () => {
   it("simple input", () => {

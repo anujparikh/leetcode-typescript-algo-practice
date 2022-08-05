@@ -1,4 +1,4 @@
-import equalSides from "../equal-sides";
+import equalSides from "../randoms/equal-sides";
 
 describe(" Maximum SubArray", () => {
   it("simple input", () => {

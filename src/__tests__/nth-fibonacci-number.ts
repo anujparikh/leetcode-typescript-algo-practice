@@ -1,6 +1,6 @@
 import nthFibonacciNumber, {
   nthFibonacciNumberWithoutExtraSpace,
-} from "../nth-fibonacci-number";
+} from "../randoms/nth-fibonacci-number";
 
 describe("Nth Fibonacci number", () => {
   it("simple input", () => {

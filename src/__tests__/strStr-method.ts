@@ -1,4 +1,4 @@
-import strStrMethod from "../strStr-method";
+import strStrMethod from "../randoms/strStr-method";
 
 describe("Implement strStr()", () => {
   it("simple input", () => {
