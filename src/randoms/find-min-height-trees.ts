@@ -1,3 +1,4 @@
+//@ts-nocheck
 function findMinHeightTrees(n: number, edges: number[][]): number[] {
     if (n <= 0) {
         return [];
