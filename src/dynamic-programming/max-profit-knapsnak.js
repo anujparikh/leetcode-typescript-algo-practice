@@ -1,11 +1,13 @@
-const solveKnapsackBrutForce = function (profits, weights, capacity) {
-    let maxProfit = 0;
-    if (capacity <= 0 || weights.length === 0) return maxProfit;
-    for (let i = 0; i < weights.length; i++) {
-        if (weights[i] <= capacity) {
-            let currentProfit = profits[i] + solveKnapsack(profits.slice(i + 1), weights.slice(i + 1), capacity - weights[i]);
-            maxProfit = Math.max(currentProfit, maxProfit);
+const maxProfitBrutForceRecursion = function (profits, weights, capacity) {
+    const maxProfitRecursive = (profits, weights, capacity, index) => {
+        if (capacity <= 0 || index >= weights.length) return 0;
+        let profit1 = 0;
+        let profit2 = 0;
+        if (weights[index] <= capacity) {
+            profit1 = profits[index] + maxProfitRecursive(profits, weights, capacity - weights[index], index + 1);
         }
+        profit2 = maxProfitRecursive(profits, weights, capacity, index + 1);
+        return Math.max(profit1, profit2);
     }
-    return maxProfit;
+    return maxProfitRecursive(profits, weights, capacity, 0);
 };
