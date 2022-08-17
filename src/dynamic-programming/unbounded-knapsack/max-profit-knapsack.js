@@ -27,3 +27,22 @@ const maxProfitKnapSackMemoization = (profits, weights, capacity) => {
     }
     return maxProfit(profits, weights, capacity, 0);
 }
+
+const maxProfitKnapSackBottomUp = (profits, weights, capacity) => {
+    const size = weights.length;
+    const dp = new Array(size).fill(0).map(() => new Array(capacity + 1).fill(0));
+    for (let i = 0; i < size; i++) {
+        dp[i][0] = 0;
+    }
+    for (let i = 1; i < size; i++) {
+        for (let c = 1; c <= capacity; c++) {
+            let withItem = 0;
+            if (weights[i] <= c) {
+                withItem = profits[i] + dp[i][c - weights[i]];
+            }
+            const withoutItem = dp[i - 1][c];
+            dp[i][c] = Math.max(withItem, withoutItem);
+        }
+    }
+    return dp[size - 1][capacity];
+}
