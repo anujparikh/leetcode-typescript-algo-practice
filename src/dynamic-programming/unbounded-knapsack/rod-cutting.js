@@ -33,3 +33,23 @@ const rodCuttingMemoization = (lengths, prices, n) => {
     }
     return rodCutting(lengths, prices, n, 0);
 }
+
+const rodCuttingBottomUp = (lengths, prices, n) => {
+    const size = prices.length;
+    const dp = new Array(size).fill(0).map(() => new Array(n + 1).fill(0));
+    for (let i = 0; i < size; i++) {
+        dp[i][0] = 0;
+    }
+    for (let i = 0; i < size; i++) {
+        for (let s = 1; s <= n; s++) {
+            let withIndex = 0;
+            let withoutIndex = 0;
+            if (lengths[i] <= s) {
+                withIndex = prices[i] + dp[i][s - lengths[i]];
+            }
+            i > 0 && (withoutIndex = dp[i - 1][s]);
+            dp[i][s] = Math.max(withIndex, withoutIndex);
+        }
+    }
+    return dp[size - 1][n];
+}
