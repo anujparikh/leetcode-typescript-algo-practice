@@ -41,3 +41,16 @@ const maxRibbonCutsMemoization = (total, ribbonLengths) => {
     const result = maxRibbonCuts(total, ribbonLengths, 0);
     return result === Number.MIN_VALUE ? -1 : result;
 }
+
+const maxRibbonCutsBottomUp = (total, ribbonLengths) => {
+    const size = ribbonLengths.length;
+    const dp = new Array(size).fill(Number.MIN_VALUE).map(() => new Array(total + 1).fill(Number.MIN_VALUE));
+    for (let i = 0; i < size; i++) dp[i][0] = 0;
+    for (let i = 0; i < size; i++) {
+        for (let t = 0; t <= total; t++) {
+            if (i > 0) dp[i][t] = dp[i - 1][t]
+            if (ribbonLengths[i] <= t && dp[i][t - ribbonLengths[i]] != Number.MIN_VALUE) dp[i][t] = Math.max(dp[i][t], dp[i][t - ribbonLengths[i]] + 1)
+        }
+    }
+    return dp[size - 1][total] == Number.MIN_VALUE ? -1 : dp[size - 1][total];
+}
